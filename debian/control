@@ -1,0 +1,16 @@
+Source: php-symfony-polyfill-php84
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://github.com/symfony/polyfill-php84
+Vcs-Git: https://github.com/Vitexus/php-symfony-polyfill-php84.git
+Rules-Requires-Root: no
+
+Package: php-symfony-polyfill-php84
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, composer
+Description: Symfony polyfill for PHP php84 functions
+ Provides polyfill functions for PHP php84 features to run
+ on older PHP versions.
