@@ -1,0 +1,5 @@
+php-symfony-polyfill-php84 (1.33.0) trixie; urgency=low
+
+  * Initial Debian packaging
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 06 May 2026 00:00:00 +0000
