@@ -1,3 +1,9 @@
+php-symfony-polyfill-php84 (1.33.0-1) trixie; urgency=medium
+
+  * Fix install path: Polyfill/php84 → Polyfill/Php84 to match autoload expectations
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sun, 25 May 2026 16:00:00 +0200
+
 php-symfony-polyfill-php84 (1.33.0) trixie; urgency=low
 
   * Initial Debian packaging
